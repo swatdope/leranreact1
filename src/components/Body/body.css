@@ -1,0 +1,32 @@
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cyan;
+    width: 100%;
+    margin-top: 20px;
+}
+.bodyText{
+    width: 100%;
+    max-width: 1024px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.textInput > input{
+    width: 600px;
+    height: 200px;
+}
+.textBtn{
+    padding: 10PX;
+    margin: 10PX
+}
+.textBtn > button{
+    margin: 10PX
+}
+
+
